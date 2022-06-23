@@ -21,6 +21,14 @@
 
 .btn {
   cursor: pointer;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--light);
+  border-radius: 5px;
+  padding: 0.6rem 1.8rem;
 }
 
 .btn:hover {
