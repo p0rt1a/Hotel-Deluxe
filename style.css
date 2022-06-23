@@ -121,3 +121,21 @@ p {
 .content a {
   font-size: 0.8rem;
 }
+
+/* Services */
+.services {
+  font-size: 0.8rem;
+}
+
+.services .column div {
+  padding: 20px;
+}
+
+.services .row .column i {
+  color: var(--light);
+  background-color: var(--primary);
+  border-radius: 50%;
+  padding: 0.6rem;
+  font-size: 2rem;
+  margin: 0.8rem 0;
+}
