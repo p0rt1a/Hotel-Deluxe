@@ -9,6 +9,10 @@
   --light: #f8f9fa;
 }
 
+.text-danger {
+  color: var(--danger);
+}
+
 .bg-primary {
   background-color: var(--primary);
   color: var(--light);
@@ -75,4 +79,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  font-size: 0.8rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .social i {
+  margin: 0 6px;
 }

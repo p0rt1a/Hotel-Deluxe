@@ -37,7 +37,7 @@ p {
   margin: 20px 0px;
 }
 
-section {
+section:not(:first-child) {
   margin: 2rem 0;
 }
 
