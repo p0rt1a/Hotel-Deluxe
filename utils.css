@@ -53,3 +53,26 @@
 .flex-grid .row {
   display: flex;
 }
+
+/* Flex Columns */
+.flex-columns .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  flex: 1;
+  background-color: var(--light);
+}
+
+.flex-columns .column-1,
+.flex-columns .column-2 {
+  height: 100%;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -223,30 +223,28 @@
     </section>
 
     <!-- contact -->
-    <section id="contact" class="contact flex-grid">
+    <section id="contact" class="contact flex-columns">
       <div class="row">
         <div class="column">
-          <img src="Img/contact.jpeg" alt="" />
+          <div class="column-1">
+            <img src="Img/contact.jpeg" alt="" />
+          </div>
         </div>
         <div class="column">
-          <div class="content">
+          <div class="column-2">
             <h1>Contact Us</h1>
-            <form action="">
-              <div class="form-row">
+            <form action="" class="contact-form">
+              <div class="form-control">
                 <label for="name">Name</label>
                 <input type="text" id="name" placeholder="Enter your name" />
               </div>
-              <div class="form-row">
+              <div class="form-control">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Enter your e-mail" />
+                <input type="text" id="email" placeholder="Enter your email" />
               </div>
-              <div class="form-row">
-                <label for="name">Phone Number</label>
-                <input
-                  type="text"
-                  id="phone"
-                  placeholder="Enter your phone number"
-                />
+              <div class="form-control">
+                <label for="name">Phone</label>
+                <input type="text" id="phone" placeholder="Enter your phone" />
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>

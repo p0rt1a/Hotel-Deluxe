@@ -276,28 +276,27 @@ section {
 }
 
 /* Contact */
-.contact {
-  background-color: var(--dark);
+.contact .form-control {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: flex-start;
+  margin: 1.6rem 0;
 }
 
-.contact .column {
-  flex: 1;
-  min-height: 100%;
-}
-
-.contact .content *:not(:first-child) {
+.contact form {
   font-size: 0.8rem;
 }
 
-.form-row {
-  display: flex;
-  flex-direction: column;
+.contact .column-2 {
+  margin: 0 1.2rem;
 }
 
-.form-row input {
-  width: 80%;
-  height: 40px;
-  padding-left: 5px;
-  border-radius: 5px;
-  border-color: var(--light);
+.contact form input {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  border-radius: 4px;
 }
