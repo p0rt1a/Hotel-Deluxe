@@ -209,3 +209,30 @@ section {
   opacity: 0.9;
   cursor: pointer;
 }
+
+/* Rooms */
+.rooms header {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.rooms .row {
+  height: 45vh;
+  margin: 0 1rem;
+}
+
+.rooms .column {
+  padding: 20px;
+  display: flex;
+  flex: 33%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rooms .column .content {
+  background-color: var(--warning);
+  color: var(--light);
+  font-size: 0.9rem;
+  padding-top: 20px;
+  text-align: center;
+}
