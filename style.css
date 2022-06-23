@@ -152,7 +152,7 @@ p {
 
 /* About */
 .about {
-  background-color: var(--danger);
+  background-color: var(--secondary);
 }
 
 .about .row {
@@ -169,4 +169,35 @@ p {
   align-self: center;
   font-size: 1rem;
   padding: 0 2rem;
+}
+
+/* Gallery */
+.gallery .container header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.1rem;
+  padding: 2rem 0;
+}
+
+/* Gallery Images */
+.gallery .images .row {
+  padding: 0 10px;
+}
+
+.gallery .images .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery img {
+  padding: 5px;
+}
+
+.gallery img:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }

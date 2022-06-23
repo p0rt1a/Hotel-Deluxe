@@ -32,7 +32,7 @@
 }
 
 .btn-secondary {
-  background-color: var(--secondary);
+  background-color: var(--danger);
   color: var(--light);
   border-radius: 5px;
   padding: 0.4rem 1.5rem;
