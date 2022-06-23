@@ -30,7 +30,7 @@
 
 .btn-bordered {
   border: 2px solid var(--light);
-  color: var(--light);
+  color: var(--dark);
   border-radius: 5px;
   padding: 0.4rem 1.8rem;
 }
