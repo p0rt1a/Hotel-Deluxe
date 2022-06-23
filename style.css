@@ -37,6 +37,10 @@ p {
   margin: 20px 0px;
 }
 
+section {
+  margin: 2rem 0;
+}
+
 /* Header */
 .header {
   background: url(Img/bg-1.jpeg);
@@ -153,6 +157,10 @@ p {
 /* About */
 .about {
   background-color: var(--secondary);
+}
+
+.about-2 {
+  background-color: var(--warning);
 }
 
 .about .row {

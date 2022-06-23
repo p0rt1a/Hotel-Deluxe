@@ -24,6 +24,13 @@
   display: inline-block;
 }
 
+.btn-bordered {
+  border: 2px solid var(--light);
+  color: var(--light);
+  border-radius: 5px;
+  padding: 0.4rem 1.8rem;
+}
+
 .btn-primary {
   background-color: var(--primary);
   color: var(--light);
