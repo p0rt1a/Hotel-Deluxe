@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header - Nav */
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.3rem;
+  background-color: var(--dark);
+  color: var(--light);
+  height: 70px;
+  padding: 0px 30px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.header nav span {
+  color: var(--warning);
+}
+
+.header nav ul {
+  font-size: 0.9rem;
+  display: flex;
+}
+
+.header nav ul li {
+  padding: 10px 20px;
+}
+
+.header nav ul a {
+  color: var(--light);
+}
+
+.header nav ul li:hover {
+  border-bottom: 1px solid var(--warning);
+}
