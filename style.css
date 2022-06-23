@@ -211,13 +211,16 @@ section {
 }
 
 /* Rooms */
+.rooms {
+  min-height: 45vh;
+}
+
 .rooms header {
   font-size: 1.2rem;
   text-align: center;
 }
 
 .rooms .row {
-  height: 45vh;
   margin: 0 1rem;
 }
 
@@ -235,4 +238,66 @@ section {
   font-size: 0.9rem;
   padding-top: 20px;
   text-align: center;
+}
+
+/* Teams */
+.teams {
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+.teams header {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.teams img {
+  border-radius: 50%;
+}
+
+.teams .row {
+  height: 50vh;
+  flex-basis: 100%;
+}
+
+.teams .row .column {
+  padding: 20px;
+  height: 100%;
+}
+
+.teams .content {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.teams .content h2 {
+  margin-top: 10px;
+}
+
+/* Contact */
+.contact {
+  background-color: var(--dark);
+}
+
+.contact .column {
+  flex: 1;
+  min-height: 100%;
+}
+
+.contact .content *:not(:first-child) {
+  font-size: 0.8rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row input {
+  width: 80%;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border-color: var(--light);
 }
