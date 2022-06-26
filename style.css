@@ -207,7 +207,6 @@ ul {
 .gallery .images .column {
   display: flex;
   flex-direction: column;
-  flex: 25%;
   gap: 10px;
 }
 
