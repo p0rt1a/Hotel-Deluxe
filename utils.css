@@ -39,7 +39,7 @@
   background-color: var(--primary);
   color: var(--light);
   border-radius: 5px;
-  padding: 0.6rem 1.8rem;
+  padding: 0.4rem 1.6rem;
 }
 
 .btn-secondary {
@@ -53,9 +53,18 @@
   opacity: 0.9;
 }
 
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
 /* Flex Grid */
 .flex-grid .row {
   display: flex;
+  height: 55vh;
 }
 
 /* Flex Columns */
@@ -83,12 +92,16 @@
 
 /* Footer */
 .footer {
+  margin-top: 1.5rem;
   display: flex;
+  height: 100px;
   font-size: 0.8rem;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer .social i {
-  margin: 0 6px;
+  margin: 0 0.2rem;
 }

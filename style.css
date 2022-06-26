@@ -34,13 +34,9 @@ ul {
   list-style: none;
 }
 
-p {
-  margin: 20px 0px;
-}
-
-section:not(:first-child) {
-  margin: 2rem 0;
-}
+/* section:not(:first-child) {
+  margin: 0.5rem 0;
+} */
 
 /* Header */
 .header {
@@ -137,13 +133,17 @@ section:not(:first-child) {
   font-size: 0.8rem;
 }
 
+.services .row {
+  align-items: center;
+}
+
 .services .column {
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
 .services .column div {
-  padding: 20px;
+  padding: 5px;
 }
 
 .services .row .column i {
@@ -161,16 +161,21 @@ section:not(:first-child) {
 }
 
 .about-2 {
+  margin-top: 2rem;
   background-color: var(--warning);
-}
-
-.about .row {
-  height: 60vh;
 }
 
 .about .column {
   flex: 50%;
   justify-content: flex-start;
+}
+
+.about .column:first-child {
+  flex: 40%;
+}
+
+.about .column:not(:first-child) {
+  flex: 60%;
 }
 
 .about .column:not(:first-child) {
@@ -193,17 +198,17 @@ section:not(:first-child) {
 }
 
 /* Gallery Images */
-.gallery .images .row {
-  padding: 0 10px;
+.gallery .images {
+  display: flex;
+  gap: 10px;
+  margin: 0 1rem;
 }
 
 .gallery .images .column {
   display: flex;
   flex-direction: column;
-}
-
-.gallery img {
-  padding: 5px;
+  flex: 25%;
+  gap: 10px;
 }
 
 .gallery img:hover {
@@ -212,13 +217,10 @@ section:not(:first-child) {
 }
 
 /* Rooms */
-.rooms {
-  min-height: 45vh;
-}
-
 .rooms header {
   font-size: 1.2rem;
   text-align: center;
+  padding: 2rem;
 }
 
 .rooms .row {
@@ -226,18 +228,18 @@ section:not(:first-child) {
 }
 
 .rooms .column {
-  padding: 20px;
   display: flex;
+  padding: 0 0.5rem;
   flex: 33%;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 .rooms .column .content {
   background-color: var(--warning);
   color: var(--light);
   font-size: 0.9rem;
-  padding-top: 20px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -246,11 +248,12 @@ section:not(:first-child) {
   background-color: var(--light);
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
+  margin-bottom: 2rem;
 }
 .teams header {
   text-align: center;
   font-size: 1rem;
+  padding: 2rem;
 }
 
 .teams img {
@@ -282,7 +285,7 @@ section:not(:first-child) {
   flex-direction: column;
   width: 80%;
   align-items: flex-start;
-  margin: 1.6rem 0;
+  margin: 0.5rem 0;
 }
 
 .contact form {
