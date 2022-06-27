@@ -75,3 +75,11 @@
 .flex-section .column {
   flex: 1;
 }
+
+.responsive-flex {
+  display: flex;
+}
+
+.responsive-flex .column {
+  flex: 1;
+}
