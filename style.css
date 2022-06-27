@@ -17,6 +17,7 @@ body {
 
 img {
   width: 100%;
+  height: 100%;
 }
 
 a {
@@ -31,4 +32,236 @@ h2 {
 
 ul {
   list-style: none;
+}
+
+/* Main */
+#main {
+  background-image: url(Img/bg-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+#main * {
+  z-index: 3;
+}
+
+#main::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Main Navbar */
+#main .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.2rem;
+  height: 80px;
+  color: #fff;
+  background-color: var(--dark);
+  opacity: 0.7;
+}
+
+#main .header h1 {
+  font-size: 1.6rem;
+}
+
+#main .header h1 span {
+  color: var(--warning);
+}
+
+#main nav ul {
+  display: flex;
+}
+
+#main nav ul li {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+#main nav ul li a {
+  color: #fff;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+#main nav ul li a:hover {
+  border-bottom: 2px solid var(--warning);
+}
+
+/* Main Content */
+#main .content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+#main .content > div {
+  max-width: 1000px;
+}
+
+/* Services */
+#services .flex-section {
+  justify-content: space-evenly;
+}
+
+#services .flex-section .item {
+  padding: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 350px;
+  color: var(--dark);
+}
+
+#services .row .icon {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+
+/* About */
+#about .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1rem;
+  row-gap: 10px;
+}
+
+/* Gallery */
+#gallery .container header {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+#gallery .images {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#gallery .images .item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+/* Rooms */
+#rooms header {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+#rooms .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#rooms .content .item {
+  width: 450px;
+}
+
+#rooms .content .item .room-info {
+  padding: 1rem;
+  background-color: var(--warning);
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+/* Teams */
+#teams {
+  padding: 2rem 0;
+}
+#teams header {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+#teams .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+#teams .content .item {
+  flex: 1;
+  font-size: 0.8rem;
+}
+
+#teams .content .item .member-info {
+  padding: 1rem;
+}
+
+#teams .content .item .member-pic img {
+  border-radius: 50%;
+}
+
+/* Contact */
+#contact .content {
+  background-color: var(--light);
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+#contact .form-container {
+  width: 80%;
+  font-size: 1rem;
+}
+
+#contact .content .item {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input {
+  height: 35px;
+  border: 1px solid #fff;
+}
+
+#contact button {
+  border: none;
+}
+
+/* Footer  */
+#footer {
+  padding: 1rem;
+}
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer i {
+  font-size: 2rem;
 }

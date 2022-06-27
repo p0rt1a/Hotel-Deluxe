@@ -23,15 +23,19 @@
   color: var(--light);
 }
 
+.bg-light {
+  background-color: var(--light);
+}
+
 .btn {
   cursor: pointer;
   display: inline-block;
-  margin: 1rem 0;
+  font-size: 1rem;
 }
 
 .btn-bordered {
   border: 2px solid var(--light);
-  color: var(--dark);
+  color: var(--light);
   border-radius: 5px;
   padding: 0.4rem 1.8rem;
 }
@@ -60,4 +64,14 @@
 
 .my-2 {
   margin: 2rem 0;
+}
+
+/* Flex Section */
+.flex-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-section .column {
+  flex: 1;
 }
